@@ -132,7 +132,7 @@ describe('test start bucket manager', function() {
         'x-qn-test-custom-header': '0',
       },
         function (err, respBody, respInfo) {
-          console.log(respInfo);
+          // console.log(respInfo);
           should.not.exist(err);
           assert.equal(respInfo.statusCode, 200);
           done();
